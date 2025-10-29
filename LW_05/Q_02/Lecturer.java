@@ -1,4 +1,4 @@
-package LB_04.Q_02;
+package LW_05.Q_02;
 
 import java.util.ArrayList;
 
@@ -16,11 +16,11 @@ public class Lecturer extends Person{
     @Override
     public void displayInfo() {
         System.out.println("Name : " + getName());
-        System.out.println("Position : " + position);
-        System.out.println("Department : " + department);
+        System.out.println("Position : " + getPosition());
+        System.out.println("Department : " + department.getName());
         System.out.println("Teaching Courses : ");
         for (Course course: courseTeaching){
-            System.out.println("\n" + course);
+            System.out.println("\n" + course.getName());
         }
     }
 

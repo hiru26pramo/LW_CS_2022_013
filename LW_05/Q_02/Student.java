@@ -1,4 +1,4 @@
-package LB_04.Q_02;
+package LW_05.Q_02;
 
 import java.util.ArrayList;
 

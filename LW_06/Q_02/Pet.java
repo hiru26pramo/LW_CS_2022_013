@@ -1,14 +1,11 @@
-package LB_04.Q_02;
+package LW_06.Q_02;
 
-public abstract class Person {
+public abstract class Pet {
     private String name;
 
-    //constructor
-    public Person(String name) {
+    public Pet(String name) {
         this.name = name;
     }
-
-    public abstract void displayInfo();
 
     public String getName() {
         return name;
@@ -17,4 +14,6 @@ public abstract class Person {
     public void setName(String name) {
         this.name = name;
     }
+
+    public abstract String petType();
 }

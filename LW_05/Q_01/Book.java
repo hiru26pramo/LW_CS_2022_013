@@ -1,4 +1,4 @@
-package LB_04.Q_01;
+package LW_05.Q_01;
 
 public class Book extends BorrowableItems{
     private String title;
