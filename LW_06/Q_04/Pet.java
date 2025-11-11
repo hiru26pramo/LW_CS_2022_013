@@ -9,6 +9,7 @@ public abstract class Pet {
         this.type = type;
     }
 
+
     public String getName() {
         return name;
     }
